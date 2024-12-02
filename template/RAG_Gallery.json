@@ -1,0 +1,272 @@
+[
+    {
+        "idx": 0,
+        "prompt": "A vampire is standing under a bright moon while two owls are on a big oak",
+        "SR_hw_split_ratio": "0.3,1;0.7,0.5,0.5",
+        "SR_prompt": " A bright, full moon hangs in the night sky, casting a silvery glow over the landscape, framed by soft, wispy clouds that enhance its ethereal beauty. BREAK The vampire stands beneath the moonlight, under the oak. his dark cloak flowing elegantly, a look of contemplation on his face as he admires the celestial view.  BREAK Two owls perch on the sturdy branches of a big oak, their feathers slightly ruffled, eyes wide and observant, adding an air of mystery to the tranquil night. ",
+        "HB_prompt_list": ["A moon", "A vampire", "Two owls"], 
+        "HB_m_offset_list": [0.3, 0.1, 0.55], 
+        "HB_n_offset_list": [0.05, 0.35, 0.55], 
+        "HB_m_scale_list": [0.4, 0.4, 0.4],
+        "HB_n_scale_list": [0.3, 0.6, 0.4],
+        "SR_delta": 0.5,
+        "HB_replace": 2,
+        "height": 1280,
+        "width": 720,
+        "seed": 42
+    },
+    {
+        "idx": 1,
+        "prompt_cn": "穿花蛱蝶深深见，点水蜻蜓款款飞",
+        "prompt": "The butterflies flying through the flowers are clearly visible, and the dragonflies skimming the water are flying slowly.",
+        "SR_hw_split_ratio": "0.5; 0.5",
+        "SR_prompt": "The butterfly, with its vibrant colors and delicate wings, fluttering gracefully among the flowers. BREAK The dragonfly, hovering lightly over the water, its iridescent wings glistening in the sunlight.",
+        "HB_prompt_list": ["Butterfly", "Dragonfly"],
+        "HB_m_offset_list": [0.2, 0.2],
+        "HB_n_offset_list": [0.05, 0.55],
+        "HB_m_scale_list": [0.6, 0.6],
+        "HB_n_scale_list": [0.4, 0.4],
+        "height": 1280,
+        "width": 720,
+        "seed": 42,
+        "SR_delta": 0.5,
+        "HB_replace": 2
+    },
+    {
+        "idx": 2,
+        "prompt": "On the left, Einstein is painting the Mona Lisa; in the center,Elon Reeve Musk is participating in the U.S. presidential election; on the right, Trump is hosting a Tesla product launch.",
+        "SR_hw_split_ratio": "0.34, 0.33, 0.33",
+        "SR_prompt": "On the left, Einstein, with a brush in hand, is intensely focused on painting the Mona Lisa with meticulous detail. His concentration highlights the serene and enigmatic nature of the portrait. BREAK In the center, Elon Reeve Musk, projecting charisma and vision, engaging directly with the onlookers as he navigates the intricacies of the U.S. presidential election campaign. BREAK On the right, Trump is confidently overseeing a Tesla launch, with a massive Tesla logo behind him, his commanding presence addressing the audience with a mix of showmanship and authority.",
+        "HB_prompt_list": [
+            "Einstein painting the Mona Lisa with a brush in hand",
+            "Elon Reeve Musk's speaks into the microphone while wearing a black jacket with the American flag in the background",
+            "Trump hosting a Tesla product launch with a massive Tesla logo behind him"
+        ],
+        "HB_m_offset_list": [
+            0.01,
+            0.35,
+            0.68
+        ],
+        "HB_n_offset_list": [
+            0.1,
+            0.1,
+            0.1
+        ],
+        "HB_m_scale_list": [
+            0.32,
+            0.31,
+            0.31
+        ],
+        "HB_n_scale_list": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "height": 768,
+        "width": 1536,
+        "seed": -1,
+        "SR_delta": 0.5,
+        "HB_replace": 2
+    },
+    {
+        "idx": 3,
+        "prompt": "On the left, a penguin wearing sunglasses is sunbathing in the desert; in the center, a tiger wearing a scarf is standing on a glacier; on the right, a panda in a windbreaker is walking through the forest.",
+        "SR_hw_split_ratio": "0.33, 0.34, 0.33",
+        "SR_prompt": "A penguin wearing sunglasses, basking under the glaring sun in the desert, where the endless dunes stretch into the horizon, creating an ironic contrast. BREAK A tiger wearing a scarf stands elegantly on a pristine glacier, its neck brushing gently against the cold air, showcasing a blend of warmth amid the icy surroundings. BREAK A panda donned in a snug windbreaker makes its way through a dense forest, the vibrant greens enveloping it in a tapestry of nature.",
+        "HB_prompt_list": [
+            "A penguin wearing sunglasses",
+            "A tiger wearing winter a scarf",
+            "A panda in a windbreaker"
+        ],
+        "HB_m_offset_list": [
+            0.02,
+            0.35,
+            0.68
+        ],
+        "HB_n_offset_list": [
+            0.2,
+            0.2,
+            0.2
+        ],
+        "HB_m_scale_list": [
+            0.28,
+            0.28,
+            0.28
+        ],
+        "HB_n_scale_list": [
+            0.6,
+            0.6,
+            0.6
+        ],
+        "height": 768,
+        "width": 1536,
+        "seed": 42,
+        "SR_delta": 0.5,
+        "HB_replace": 2
+    },
+    {
+        "idx": 4,
+        "prompt": "Seven ceramic mugs in different colors are placed on a wooden table, with numbers from 1 to 7 written on the cups, and a bunch of white roses on the left.",
+        "SR_hw_split_ratio": "1,1,1,1,1;1,1,1,1,1",
+        "SR_prompt": "a bunch of white rose on the left on the wooden table BREAK a red ceramic cup with number 1 written on it BREAK one orange ceramic mug with number 2 written on it among the seven cups BREAK one yellow ceramic mug with number 3 written on it BREAK one green ceramic mug with number 4 written on it BREAK  one blue ceramic mug with number 5 written on it BREAK one cyan ceramic mug with number 6 written on it BREAK one purple ceramic mug with number 7 written on it",
+        "HB_prompt_list": [
+            "a bunch of white rose",
+            "one red ceramic mug with the number 1 written on it on a wooden table",
+            "one orange ceramic mug with the number 2 written on it on a wooden table",
+            "one yellow ceramic mug with the number 3 written on it on a wooden table",
+            "one green ceramic mug with the number 4 written on it on a wooden table",
+            "one blue ceramic mug with the number 5 written on it on a wooden table",
+            "one cyan ceramic mug with the number 6 written on it on a wooden table",
+            "one purple ceramic mug with the number 7 written on it on a wooden table"
+
+        ],
+        "HB_m_offset_list": [
+            0,
+            0.25,
+            0.5,
+            0.75,
+            0,
+            0.25,
+            0.5,
+            0.75
+        ],
+        "HB_n_offset_list": [
+            0,
+            0,
+            0,
+            0,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+        ],
+        "HB_m_scale_list": [
+            0.20,
+            0.24,
+            0.24,
+            0.24,
+            0.24,
+            0.24,
+            0.24,
+            0.24
+        ],
+        "HB_n_scale_list": [
+            0.49,
+            0.49,
+            0.49,
+            0.49,
+            0.49,
+            0.49,
+            0.49,
+            0.49
+        ],
+        "height": 1024,
+        "width": 1024,
+        "seed": 1234,
+        "SR_delta": 1.0,
+        "HB_replace": 2
+    },
+    {
+        "idx": 5,
+        "prompt": "a balloon on the bottom of a dog",
+        "SR_hw_split_ratio": "0.5; 0.5",
+        "SR_prompt": "A playful dog, perhaps a golden retriever, with its ears perked up, sitting on the balloon, giving an enthusiastic demeanor. BREAK A colorful balloon floating gently, its string dangling gracefully, just beneath the dog.",
+        "HB_prompt_list": [
+            "Balloon",
+            "Dog"
+        ],
+        "HB_m_offset_list": [
+            0.1,
+            0.1
+        ],
+        "HB_n_offset_list": [
+            0.55,
+            0.05
+        ],
+        "HB_m_scale_list": [
+            0.8,
+            0.8
+        ],
+        "HB_n_scale_list": [
+            0.4,
+            0.45
+        ],
+        "height": 1024,
+        "width": 1024,
+        "seed": 1234,
+        "SR_delta": 1.0,
+        "HB_replace": 2
+    },
+    {
+        "idx": 6,
+        "prompt": "A cylindrical glass, obscuring the right half of the apple behind it.",
+        "SR_hw_split_ratio": "0.5,0.5",
+        "SR_prompt": "An apple, with its right half obscured behind a cylindrical glass. BREAK A cylindrical glass, obscuring the right half of the apple behind it.",
+        "HB_prompt_list": [
+            "Apple",
+            "Cylindrical glass"
+        ],
+        "HB_m_offset_list": [
+            0.1,
+            0.3
+        ],
+        "HB_n_offset_list": [
+            0.2,
+            0.1
+        ],
+        "HB_m_scale_list": [
+            0.5,
+            0.6
+        ],
+        "HB_n_scale_list": [
+            0.6,
+            0.8
+        ],
+        "height": 1024,
+        "width": 1024,
+        "seed": 1234,
+        "SR_delta": 0.5,
+        "HB_replace": 2
+    },
+    {
+        "idx": 7,
+        "prompt": "From left to right, Pink blossoming trees, Green sycamore trees, Golden maples and Snow-blanketed pines",
+        "SR_hw_split_ratio": "0.25,0.25,0.25,0.25",
+        "SR_prompt": "Pink blossoming trees fill the atmosphere with a delicate charm, their petals creating a soft carpet beneath them. BREAK Green sycamore trees stand tall and sturdy, their broad leaves casting a lush shade over the ground. BREAK Golden maples display a vibrant hue, their leaves shimmering like gold coins under the sun. BREAK Snow-blanketed pines offer a serene contrast, their branches heavy with snow, creating an image of winter quietude.",
+        "HB_prompt_list": [
+            "Pink blossoming trees",
+            "Green sycamore trees",
+            "Golden maples",
+            "Snow-blanketed pines"
+        ],
+        "HB_m_offset_list": [
+            0.02,
+            0.27,
+            0.52,
+            0.77
+        ],
+        "HB_n_offset_list": [
+            0.1,
+            0.1,
+            0.1,
+            0.1
+        ],
+        "HB_m_scale_list": [
+            0.21,
+            0.21,
+            0.21,
+            0.21
+        ],
+        "HB_n_scale_list": [
+            0.8,
+            0.8,
+            0.8,
+            0.8
+        ],
+        "height": 1024,
+        "width": 1024,
+        "seed": 1236,
+        "SR_delta": 1.0,
+        "HB_replace": 2
+    }
+]
