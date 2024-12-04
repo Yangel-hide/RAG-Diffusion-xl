@@ -88,6 +88,9 @@ images = pipe(
 ).images[0]
 images.save("test.png")
 ```
+### 3. NOTICE
+- I test it with SDXL Lightning model, so the guidance_scale is set to 2.0 and sampling step is set to 15. You can modify these parameters according to the model you use.
+
 ## Gallery
 
 ### 1. Image Inference
